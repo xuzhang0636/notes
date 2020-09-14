@@ -5,6 +5,7 @@
 ## Java集合框架分析
 
 - [ArrayList分析](./Java/Collection/ArrayList.md)
+- [HashMap分析](./Java/Collection/HashMap.md)
 
 
 
