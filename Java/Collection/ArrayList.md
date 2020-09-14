@@ -62,9 +62,14 @@ private void ensureExplicitCapacity(int var1) {
             this.grow(var1);
         }
 }
+
+在grow方法中，需要记住的是，除了对超大数组的数组处理之外，会将现在的空间扩容到1.5倍
 ```
 
+总结一下流程：
 
+* 判断当前元素的个数跟当前数组容量的大小
+* 如果小于，不做处理，如果大于，则将当前数组容量扩展到原数组的1.5倍
 
 
 
@@ -72,6 +77,8 @@ private void ensureExplicitCapacity(int var1) {
 
 ## 4.它是线程安全的么？如果不是，那么有什么方案来替代么？
 
+ArrayList不是线程安全的，替代方案有三种种，一种~~Vector~~ ，基本上没什么用，还有一种是Collection.synchronizedList，最后一种是CopyOnWriteArrayList
+
 ------
 
-## 5.
+## 
