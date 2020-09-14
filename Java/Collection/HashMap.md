@@ -4,7 +4,7 @@
 
 HashMap的底层数据结构是数组加链表的形式。
 
-![image-20200914191446846](/Users/xuzhang/notes/Java/Collection/HashMap.assets/image-20200914191446846.png)
+![image-20200914191446846](./HashMap.assets/image-20200914191446846.png)
 
 ------
 
